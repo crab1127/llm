@@ -1,0 +1,25 @@
+{
+  "name": "llm",
+  "version": "1.0.0",
+  "description": " 累了吗，代拿包裹",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "start": "node --inspect run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.44",
+    "@types/koa-router": "^7.0.27",
+    "@types/node": "^9.4.7",
+    "nodemon": "^1.17.2",
+    "ts-node": "^5.0.1"
+  }
+}
